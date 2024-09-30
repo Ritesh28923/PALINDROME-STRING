@@ -1,13 +1,13 @@
 import java.util.Scanner;
 class palin{
-public static void main(String[] arr) {
+public static void main(String[] args) {
 String s= new String();
 Scanner sc= new Scanner(System.in);
 System.out.println("Enter String");
 s=sc.nextLine();
 int i=0;
-j=s.length()-1;
-Flag=0;
+int j=s.length()-1;
+int Flag=0;
 while(i<j && Flag==0){
     if(s.charAt(i)!=s.charAt(j))
     {
